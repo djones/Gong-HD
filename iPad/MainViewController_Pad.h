@@ -9,7 +9,10 @@
 #import "FlipsideViewController_Pad.h"
 
 @interface MainViewController_Pad : UIViewController <FlipsideViewControllerDelegate> {
+	UIImageView *gong;
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView *gong;
 
 - (IBAction)showInfo;
 

@@ -8,8 +8,11 @@
 
 #import "MainViewController_Pad.h"
 #import "SoundPlayer.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation MainViewController_Pad
+
+@synthesize gong;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
@@ -68,9 +71,55 @@
  */
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	SoundPlayer *player = [SoundPlayer initWithSound:@"gong"];
-	[player play];
-	[player release];
+	UITouch *aTouch = [touches anyObject];
+	CGPoint loc = [aTouch locationInView:self.view];
+
+	CGRect buttonDeadZone;
+	
+	if(self.interfaceOrientation == UIInterfaceOrientationPortrait || self.interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown){
+		buttonDeadZone = CGRectMake(0, (self.view.frame.size.height - 100), 100, 100);
+	} else {
+		buttonDeadZone = CGRectMake(0, (self.view.frame.size.width - 100), 100, 100);
+	}
+	
+	if(!CGRectContainsPoint(buttonDeadZone, loc)){
+		SoundPlayer *player = [SoundPlayer initWithSound:@"gong"];
+		[player play];
+		[player release];
+
+		// create a CGPath that implements two arcs (a bounce)
+		CGMutablePathRef thePath = CGPathCreateMutable();
+		
+		CGMutablePathRef shakePath = CGPathCreateMutable();
+		CGPathMoveToPoint(shakePath, NULL, self.gong.center.x, self.gong.center.y);
+		int index;
+		for (index = 0; index < 50; ++index)
+		{
+			int shakeAmount = ((50 - index) / 10);
+			
+			CGPathAddLineToPoint(shakePath, NULL, (self.gong.center.x + shakeAmount), self.gong.center.y);
+			CGPathAddLineToPoint(shakePath, NULL, (self.gong.center.x - shakeAmount), self.gong.center.y);
+		}
+		CGPathCloseSubpath(shakePath);
+		
+		CAKeyframeAnimation *theAnimation;
+		
+		// create the animation object, specifying the position property as the key path
+		// the key path is relative to the target animation object (in this case a CALayer)
+		theAnimation=[CAKeyframeAnimation animationWithKeyPath:@"position"];
+		theAnimation.path=shakePath;
+		
+		// set the duration to 5.0 seconds
+		theAnimation.duration=5.0;
+		
+		
+		// release the path
+		CFRelease(thePath);
+		
+		[self.gong addAnimation:theAnimation forKey:@"shake"];
+
+		
+	}
 }
 
 

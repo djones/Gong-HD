@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class MainViewController_Phone;
+
 @interface AppDelegate_Phone : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	MainViewController_Phone *mainViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) MainViewController_Phone *mainViewController;
 
 @end
 

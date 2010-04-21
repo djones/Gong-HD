@@ -9,7 +9,10 @@
 #import "FlipsideViewController_Phone.h"
 
 @interface MainViewController_Phone : UIViewController <FlipsideViewControllerDelegate> {
+	UIImageView *gong;
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView *gong;
 
 - (IBAction)showInfo;
 

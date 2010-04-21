@@ -1,6 +1,5 @@
 #import "SoundPlayer.h"
 
-
 @implementation SoundPlayer
 
 + (id)initWithSound:(NSString *)soundName {

@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class MainViewController_Pad;
+
 @interface AppDelegate_Pad : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	MainViewController_Pad *mainViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) MainViewController_Pad *mainViewController;
 
 @end
 

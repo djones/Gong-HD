@@ -15,7 +15,21 @@
 		2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_Pad.m */; };
 		2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_Pad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		F813D9A3117EFCAF00CD5C75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F813D9A2117EFCAF00CD5C75 /* QuartzCore.framework */; };
 		F81D7C36117E893600B9ACEA /* gong.au in Resources */ = {isa = PBXBuildFile; fileRef = F81D7C35117E893600B9ACEA /* gong.au */; };
+		F81D7C50117E89F000B9ACEA /* MainViewController_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D7C4E117E89F000B9ACEA /* MainViewController_Pad.m */; };
+		F81D7C51117E89F000B9ACEA /* MainView_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81D7C4F117E89F000B9ACEA /* MainView_Pad.xib */; };
+		F81D7C57117E89FF00B9ACEA /* FlipsideViewController_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D7C55117E89FF00B9ACEA /* FlipsideViewController_Pad.m */; };
+		F81D7C58117E89FF00B9ACEA /* FlipsideView_Pad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81D7C56117E89FF00B9ACEA /* FlipsideView_Pad.xib */; };
+		F81D7CC6117E913D00B9ACEA /* MainViewController_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D7CC4117E913D00B9ACEA /* MainViewController_Phone.m */; };
+		F81D7CC7117E913D00B9ACEA /* MainView_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81D7CC5117E913D00B9ACEA /* MainView_Phone.xib */; };
+		F81D7CD1117E917E00B9ACEA /* FlipsideViewController_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D7CCF117E917E00B9ACEA /* FlipsideViewController_Phone.m */; };
+		F81D7CD2117E917E00B9ACEA /* FlipsideView_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81D7CD0117E917E00B9ACEA /* FlipsideView_Phone.xib */; };
+		F8C696B8117E9DD0004E0A91 /* gong.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C696B7117E9DD0004E0A91 /* gong.png */; };
+		F8C698A6117EA18C004E0A91 /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C698A5117EA18C004E0A91 /* SoundPlayer.m */; };
+		F8C698AC117EA1CB004E0A91 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C698AB117EA1CB004E0A91 /* AudioToolbox.framework */; };
+		F8EE8BDD117FBCD2004169CE /* iPadIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EE8BDB117FBCD2004169CE /* iPadIcon.png */; };
+		F8EE8BDE117FBCD2004169CE /* iPhoneIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EE8BDC117FBCD2004169CE /* iPhoneIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +46,26 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* gong_hd_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gong_hd_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* gong_hd-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gong_hd-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F813D9A2117EFCAF00CD5C75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F81D7C35117E893600B9ACEA /* gong.au */ = {isa = PBXFileReference; lastKnownFileType = audio.au; path = gong.au; sourceTree = "<group>"; };
+		F81D7C4D117E89F000B9ACEA /* MainViewController_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController_Pad.h; sourceTree = "<group>"; };
+		F81D7C4E117E89F000B9ACEA /* MainViewController_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController_Pad.m; sourceTree = "<group>"; };
+		F81D7C4F117E89F000B9ACEA /* MainView_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView_Pad.xib; sourceTree = "<group>"; };
+		F81D7C54117E89FF00B9ACEA /* FlipsideViewController_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController_Pad.h; sourceTree = "<group>"; };
+		F81D7C55117E89FF00B9ACEA /* FlipsideViewController_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController_Pad.m; sourceTree = "<group>"; };
+		F81D7C56117E89FF00B9ACEA /* FlipsideView_Pad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView_Pad.xib; sourceTree = "<group>"; };
+		F81D7CC3117E913D00B9ACEA /* MainViewController_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController_Phone.h; sourceTree = "<group>"; };
+		F81D7CC4117E913D00B9ACEA /* MainViewController_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController_Phone.m; sourceTree = "<group>"; };
+		F81D7CC5117E913D00B9ACEA /* MainView_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView_Phone.xib; sourceTree = "<group>"; };
+		F81D7CCE117E917E00B9ACEA /* FlipsideViewController_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController_Phone.h; sourceTree = "<group>"; };
+		F81D7CCF117E917E00B9ACEA /* FlipsideViewController_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController_Phone.m; sourceTree = "<group>"; };
+		F81D7CD0117E917E00B9ACEA /* FlipsideView_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView_Phone.xib; sourceTree = "<group>"; };
+		F8C696B7117E9DD0004E0A91 /* gong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gong.png; sourceTree = "<group>"; };
+		F8C698A4117EA18C004E0A91 /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlayer.h; sourceTree = "<group>"; };
+		F8C698A5117EA18C004E0A91 /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
+		F8C698AB117EA1CB004E0A91 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F8EE8BDB117FBCD2004169CE /* iPadIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadIcon.png; sourceTree = "<group>"; };
+		F8EE8BDC117FBCD2004169CE /* iPhoneIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F8C698AC117EA1CB004E0A91 /* AudioToolbox.framework in Frameworks */,
+				F813D9A3117EFCAF00CD5C75 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +95,9 @@
 		2860E324111B887F00E27156 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				2860E325111B887F00E27156 /* AppDelegate_Phone.h */,
-				2860E326111B887F00E27156 /* AppDelegate_Phone.m */,
-				2860E327111B887F00E27156 /* MainWindow_Phone.xib */,
+				F81D7CC9117E914900B9ACEA /* controllers */,
+				F81D7CCA117E915200B9ACEA /* views */,
+				F81D7CCB117E915C00B9ACEA /* delegates */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -70,9 +105,9 @@
 		2860E32A111B888700E27156 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				2860E32B111B888700E27156 /* AppDelegate_Pad.h */,
-				2860E32C111B888700E27156 /* AppDelegate_Pad.m */,
-				2860E32D111B888700E27156 /* MainWindow_Pad.xib */,
+				F81D7C5B117E8A1B00B9ACEA /* controllers */,
+				F81D7C5A117E8A1000B9ACEA /* views */,
+				F81D7C5C117E8A2900B9ACEA /* delegates */,
 			);
 			path = iPad;
 			sourceTree = "<group>";
@@ -80,8 +115,13 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F8C696B7117E9DD0004E0A91 /* gong.png */,
 				F81D7C35117E893600B9ACEA /* gong.au */,
 				8D1107310486CEB800E47090 /* gong_hd-Info.plist */,
+				F8C698A4117EA18C004E0A91 /* SoundPlayer.h */,
+				F8C698A5117EA18C004E0A91 /* SoundPlayer.m */,
+				F8EE8BDB117FBCD2004169CE /* iPadIcon.png */,
+				F8EE8BDC117FBCD2004169CE /* iPhoneIcon.png */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -114,8 +154,70 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F8C698AB117EA1CB004E0A91 /* AudioToolbox.framework */,
+				F813D9A2117EFCAF00CD5C75 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F81D7C5A117E8A1000B9ACEA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F81D7C4F117E89F000B9ACEA /* MainView_Pad.xib */,
+				F81D7C56117E89FF00B9ACEA /* FlipsideView_Pad.xib */,
+				2860E32D111B888700E27156 /* MainWindow_Pad.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		F81D7C5B117E8A1B00B9ACEA /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F81D7C54117E89FF00B9ACEA /* FlipsideViewController_Pad.h */,
+				F81D7C55117E89FF00B9ACEA /* FlipsideViewController_Pad.m */,
+				F81D7C4D117E89F000B9ACEA /* MainViewController_Pad.h */,
+				F81D7C4E117E89F000B9ACEA /* MainViewController_Pad.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		F81D7C5C117E8A2900B9ACEA /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32B111B888700E27156 /* AppDelegate_Pad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_Pad.m */,
+			);
+			name = delegates;
+			sourceTree = "<group>";
+		};
+		F81D7CC9117E914900B9ACEA /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F81D7CCE117E917E00B9ACEA /* FlipsideViewController_Phone.h */,
+				F81D7CCF117E917E00B9ACEA /* FlipsideViewController_Phone.m */,
+				F81D7CC3117E913D00B9ACEA /* MainViewController_Phone.h */,
+				F81D7CC4117E913D00B9ACEA /* MainViewController_Phone.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		F81D7CCA117E915200B9ACEA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F81D7CC5117E913D00B9ACEA /* MainView_Phone.xib */,
+				F81D7CD0117E917E00B9ACEA /* FlipsideView_Phone.xib */,
+				2860E327111B887F00E27156 /* MainWindow_Phone.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		F81D7CCB117E915C00B9ACEA /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_Phone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_Phone.m */,
+			);
+			name = delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +265,13 @@
 				2860E329111B887F00E27156 /* MainWindow_Phone.xib in Resources */,
 				2860E32F111B888700E27156 /* MainWindow_Pad.xib in Resources */,
 				F81D7C36117E893600B9ACEA /* gong.au in Resources */,
+				F81D7C51117E89F000B9ACEA /* MainView_Pad.xib in Resources */,
+				F81D7C58117E89FF00B9ACEA /* FlipsideView_Pad.xib in Resources */,
+				F81D7CC7117E913D00B9ACEA /* MainView_Phone.xib in Resources */,
+				F81D7CD2117E917E00B9ACEA /* FlipsideView_Phone.xib in Resources */,
+				F8C696B8117E9DD0004E0A91 /* gong.png in Resources */,
+				F8EE8BDD117FBCD2004169CE /* iPadIcon.png in Resources */,
+				F8EE8BDE117FBCD2004169CE /* iPhoneIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +285,11 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				2860E328111B887F00E27156 /* AppDelegate_Phone.m in Sources */,
 				2860E32E111B888700E27156 /* AppDelegate_Pad.m in Sources */,
+				F81D7C50117E89F000B9ACEA /* MainViewController_Pad.m in Sources */,
+				F81D7C57117E89FF00B9ACEA /* FlipsideViewController_Pad.m in Sources */,
+				F81D7CC6117E913D00B9ACEA /* MainViewController_Phone.m in Sources */,
+				F81D7CD1117E917E00B9ACEA /* FlipsideViewController_Phone.m in Sources */,
+				F8C698A6117EA18C004E0A91 /* SoundPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,12 +327,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Jones (VRR4L89Q6U)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B092C778-B21C-471D-85E4-F2D233EFDBD8";
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

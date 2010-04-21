@@ -13,9 +13,11 @@
 
 @interface FlipsideViewController_Pad : UIViewController {
 	id <FlipsideViewControllerDelegate> delegate;
+
 }
 
 @property (nonatomic, assign) id <FlipsideViewControllerDelegate> delegate;
+
 - (IBAction)done;
 
 @end
