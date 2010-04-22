@@ -124,6 +124,8 @@
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+	[self.gong.layer removeAllAnimations];
+	
     // Overriden to allow any orientation.
     return YES;
 }

@@ -25,6 +25,10 @@
 		F81D7CC7117E913D00B9ACEA /* MainView_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81D7CC5117E913D00B9ACEA /* MainView_Phone.xib */; };
 		F81D7CD1117E917E00B9ACEA /* FlipsideViewController_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D7CCF117E917E00B9ACEA /* FlipsideViewController_Phone.m */; };
 		F81D7CD2117E917E00B9ACEA /* FlipsideView_Phone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F81D7CD0117E917E00B9ACEA /* FlipsideView_Phone.xib */; };
+		F82F153411801EF900548894 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F82F153211801EF900548894 /* background.jpg */; };
+		F82F153511801EF900548894 /* the-gong.png in Resources */ = {isa = PBXBuildFile; fileRef = F82F153311801EF900548894 /* the-gong.png */; };
+		F82F15A91180609200548894 /* background-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F82F15A71180609200548894 /* background-small.jpg */; };
+		F82F15AA1180609200548894 /* the-gong-small.png in Resources */ = {isa = PBXBuildFile; fileRef = F82F15A81180609200548894 /* the-gong-small.png */; };
 		F8C696B8117E9DD0004E0A91 /* gong.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C696B7117E9DD0004E0A91 /* gong.png */; };
 		F8C698A6117EA18C004E0A91 /* SoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C698A5117EA18C004E0A91 /* SoundPlayer.m */; };
 		F8C698AC117EA1CB004E0A91 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C698AB117EA1CB004E0A91 /* AudioToolbox.framework */; };
@@ -60,6 +64,10 @@
 		F81D7CCE117E917E00B9ACEA /* FlipsideViewController_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController_Phone.h; sourceTree = "<group>"; };
 		F81D7CCF117E917E00B9ACEA /* FlipsideViewController_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController_Phone.m; sourceTree = "<group>"; };
 		F81D7CD0117E917E00B9ACEA /* FlipsideView_Phone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView_Phone.xib; sourceTree = "<group>"; };
+		F82F153211801EF900548894 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		F82F153311801EF900548894 /* the-gong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-gong.png"; sourceTree = "<group>"; };
+		F82F15A71180609200548894 /* background-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-small.jpg"; sourceTree = "<group>"; };
+		F82F15A81180609200548894 /* the-gong-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "the-gong-small.png"; sourceTree = "<group>"; };
 		F8C696B7117E9DD0004E0A91 /* gong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gong.png; sourceTree = "<group>"; };
 		F8C698A4117EA18C004E0A91 /* SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundPlayer.h; sourceTree = "<group>"; };
 		F8C698A5117EA18C004E0A91 /* SoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundPlayer.m; sourceTree = "<group>"; };
@@ -115,6 +123,10 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				F82F15A71180609200548894 /* background-small.jpg */,
+				F82F15A81180609200548894 /* the-gong-small.png */,
+				F82F153211801EF900548894 /* background.jpg */,
+				F82F153311801EF900548894 /* the-gong.png */,
 				F8C696B7117E9DD0004E0A91 /* gong.png */,
 				F81D7C35117E893600B9ACEA /* gong.au */,
 				8D1107310486CEB800E47090 /* gong_hd-Info.plist */,
@@ -272,6 +284,10 @@
 				F8C696B8117E9DD0004E0A91 /* gong.png in Resources */,
 				F8EE8BDD117FBCD2004169CE /* iPadIcon.png in Resources */,
 				F8EE8BDE117FBCD2004169CE /* iPhoneIcon.png in Resources */,
+				F82F153411801EF900548894 /* background.jpg in Resources */,
+				F82F153511801EF900548894 /* the-gong.png in Resources */,
+				F82F15A91180609200548894 /* background-small.jpg in Resources */,
+				F82F15AA1180609200548894 /* the-gong-small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

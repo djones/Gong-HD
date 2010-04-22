@@ -106,24 +106,23 @@
 		
 		// create the animation object, specifying the position property as the key path
 		// the key path is relative to the target animation object (in this case a CALayer)
-		theAnimation=[CAKeyframeAnimation animationWithKeyPath:@"position"];
-		theAnimation.path=shakePath;
+		theAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+		theAnimation.path = shakePath;
 		
 		// set the duration to 5.0 seconds
-		theAnimation.duration=5.0;
-		
+		theAnimation.duration = 5.0;
 		
 		// release the path
 		CFRelease(thePath);
 		
 		[self.gong addAnimation:theAnimation forKey:@"shake"];
-
-		
 	}
 }
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+	//[self.gong removeAnimationForKey:@"shake"];
+	[self.gong.layer removeAllAnimations];
     // Overriden to allow any orientation.
     return YES;
 }
